@@ -6,6 +6,20 @@
   .layout-padding {
     @apply px-8;
   }
+  .wrapper {
+    max-width: 600px;
+    margin: auto;
+  }
+  @media screen and (min-width: 750px) {
+    .wrapper {
+      max-width: 650px;
+    }
+  }
+  @media screen and (min-width: 1150px) {
+    .wrapper {
+      max-width: 950px;
+    }
+  }
   a {
     @apply underline-offset-4;
     @apply underline;

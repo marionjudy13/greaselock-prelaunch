@@ -9,6 +9,10 @@ module.exports = {
     fontFamily: {
       sans: ["var(--font-opensans)"],
     },
+    screens: {
+      sm: "750px",
+      lg: "1150px",
+    },
     extend: {
       colors: {
         blue: "#007298",

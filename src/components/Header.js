@@ -3,7 +3,7 @@ import Image from "next/image";
 export const Header = () => {
   return (
     <header className="relative shadow-md shadow-black/25 layout-padding py-4 z-10">
-      <div className="container">
+      <div className="wrapper">
         <Image
           src="/images/greaselock.png"
           width={150}
