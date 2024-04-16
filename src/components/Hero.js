@@ -8,7 +8,7 @@ export const Hero = () => {
           New Website Coming Soon
         </h1>
         <h2 className="text-lg sm:text-xl lg:text-3xl leading-6 lg:leading-snug sm:text-center sm:max-w-[500px] lg:max-w-[750px] sm:m-auto">
-          For any Grease Lock&#8482; inquiries please call{" "}
+          For any Grease Lock<sup>&#174;</sup> inquiries please call{" "}
           <a href="tel:8008289638">800.828.9638</a> or email{" "}
           <a href="mailto: sales@greaselock.com">sales@greaselock.com</a>.
         </h2>
