@@ -25,10 +25,21 @@
     @apply underline;
     @apply font-semibold;
     @apply cursor-pointer;
+    transition: color 0.3s ease;
   }
+
+  a:hover {
+    color: #007298;
+  }
+
   h3 {
     @apply text-base;
     @apply font-bold;
     @apply mb-3;
+  }
+
+  .blue-border {
+    text-decoration-color: #007298;
+    @apply decoration-1;
   }
 }
