@@ -19,7 +19,7 @@ module.exports = {
         lightBlue: "#C6D3E3",
       },
       backgroundImage: {
-        "hero-img": "url('/images/hero-bg-v2.webp')",
+        "hero-img": "url('/images/hero-bg-v3.webp')",
       },
     },
   },
