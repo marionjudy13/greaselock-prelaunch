@@ -10,10 +10,35 @@ const openSans = Open_Sans({
   variable: "--font-opensans",
 });
 
+// export const metadata = {
+//   title: "Grease Lock",
+//   description:
+//     "Grease Lock is a patented, disposable filter pad and metal frame with a built in baffle on back. Features unique fire resistant fiber, delivering exceptional grease filtration efficiency.",
+// };
+
 export const metadata = {
-  title: "Grease Lock",
-  description:
-    "Grease Lock is a patented, disposable filter pad and metal frame with a built in baffle on back. Features unique fire resistant fiber, delivering exceptional grease filtration efficiency.",
+  openGraph: {
+    title: "Grease Lock",
+    description:
+      "Grease Lock is a patented, disposable filter pad and metal frame with a built in baffle on back. Features unique fire resistant fiber, delivering exceptional grease filtration efficiency.",
+    url: "https://www.greaselock.com/",
+    siteName: "Grease Lock",
+    images: [
+      {
+        url: "https://nextjs.org/og.png",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "https://nextjs.org/og-alt.png",
+        width: 1800,
+        height: 1600,
+        alt: "My custom alt",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
