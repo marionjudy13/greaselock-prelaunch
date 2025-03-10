@@ -6,6 +6,7 @@ export const Contact = () => {
       <div className="wrapper">
         <div>
           <h3>Contact Us</h3>
+          Hubspot form here
         </div>
       </div>
     </section>

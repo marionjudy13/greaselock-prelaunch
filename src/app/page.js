@@ -1,6 +1,6 @@
 import { Contact } from "@/components/Contact";
 import { Hero } from "@/components/Hero";
-import { Pdfs } from "@/components/pdfs";
+import { Pdfs } from "@/components/Pdfs";
 import { ProductDetails } from "@/components/ProductDetails";
 import { Videos } from "@/components/Videos";
 
