@@ -10,12 +10,6 @@ const openSans = Open_Sans({
   variable: "--font-opensans",
 });
 
-// export const metadata = {
-//   title: "Grease Lock",
-//   description:
-//     "Grease Lock is a patented, disposable filter pad and metal frame with a built in baffle on back. Features unique fire resistant fiber, delivering exceptional grease filtration efficiency.",
-// };
-
 export const metadata = {
   openGraph: {
     title: "Grease Lock",

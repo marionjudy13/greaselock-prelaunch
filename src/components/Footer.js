@@ -34,7 +34,7 @@ export const Footer = () => {
         <div className="wrapper">
           <div className="flex justify-between items-center w-full">
             <p className="text-black text-xs font-semibold">
-              Copyright © 2024 GREASE LOCK<sup>&#174;</sup>
+              Copyright © 2025 GREASE LOCK<sup>&#174;</sup>
             </p>
             <a href="https://www.youtube.com/@greaselock" target="_blank">
               <GrYoutube size="2em" />

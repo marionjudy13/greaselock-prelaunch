@@ -15,11 +15,13 @@ module.exports = {
     },
     extend: {
       colors: {
+        teal: "#5AB7B2",
         blue: "#007298",
         lightBlue: "#C6D3E3",
+        gray: "#E9EAEE",
       },
       backgroundImage: {
-        "hero-img": "url('/images/hero-bg-gen1.webp')",
+        "hero-img": "url('/images/hero-bg.png')",
       },
     },
   },
