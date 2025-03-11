@@ -23,7 +23,7 @@ module.exports = {
       backgroundImage: {
         "hero-img": "url('/images/hero-bg.jpg')",
         "new-hero":
-          "linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1)), url('/images/hero-bg.jpg')",
+          "linear-gradient(180deg, rgba(255,255,255,.35) 0%, rgba(255,255,255,1) 100%), url('/images/hero-bg.webp')",
       },
     },
   },
