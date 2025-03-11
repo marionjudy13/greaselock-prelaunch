@@ -50,6 +50,13 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="//js.hs-scripts.com/22615991.js?businessUnitId=2432495"
+        ></script>
       </body>
     </html>
   );
