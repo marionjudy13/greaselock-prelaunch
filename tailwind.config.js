@@ -21,7 +21,9 @@ module.exports = {
         gray: "#E9EAEE",
       },
       backgroundImage: {
-        "hero-img": "url('/images/hero-bg.png')",
+        "hero-img": "url('/images/hero-bg.jpg')",
+        "new-hero":
+          "linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1)), url('/images/hero-bg.jpg')",
       },
     },
   },
