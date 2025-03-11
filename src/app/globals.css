@@ -4,7 +4,7 @@
 
 @layer components {
   .layout-padding {
-    @apply px-8;
+    @apply px-4;
   }
   .wrapper {
     max-width: 600px;

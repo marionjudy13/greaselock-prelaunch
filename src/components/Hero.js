@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Hero = () => {
   return (
-    <section className="flex flex-wrap w-full h-auto px-8 py-16 sm:py-44 bg-new-hero bg-center bg-cover bg-no-repeat z-0">
+    <section className="flex flex-wrap w-full h-auto px-8 pt-14 pb-10 sm:py-44 bg-new-hero bg-center bg-cover bg-no-repeat z-0 border-b-white border-b-2">
       <div className="wrapper md:flex">
         <div className="text-center mb-2">
           <Image
@@ -16,7 +16,7 @@ export const Hero = () => {
           <h1 className="text-md font-extrabold mb-3">
             Grease Management Reimagined:
             <br />
-            <span className="inline text-2xl bg-[url(/images/swipe-lg.png)] bg-contain px-2 mt-8">
+            <span className="inline text-2xl italic bg-[url(/images/swipe-lg.png)] bg-contain px-2 mt-8">
               Cleaner, Smarter, Better
             </span>
           </h1>
