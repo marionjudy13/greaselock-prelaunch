@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const Pdfs = () => {
   return (
-    <section className="px-8 py-10 bg-gray">
+    <section className="px-8 py-20 bg-gray">
       <div className="wrapper">
         <div>
           <h3 className="text-center text-blue font-extrabold text-2xl mb-8">
@@ -19,6 +19,7 @@ export const Pdfs = () => {
                 >
                   Care Guide
                 </Link>
+                <img src="images/arrow-right-solid.svg" className="arrow" />
               </div>
             </li>
             <li className="mb-5">
@@ -45,7 +46,7 @@ export const Pdfs = () => {
                 </Link>
               </div>
             </li>
-            <li className="mb-5">
+            <li>
               <div className="background" />
               <div className="pdf bg-white text-blue text-lg font-bold text-center w-100 px-10 py-6">
                 <Link

@@ -39,14 +39,9 @@
   }
 
   h4 {
-    @apply text-lg;
-    @apply font-extrabold;
+    @apply text-base;
+    @apply font-bold;
     @apply mb-3;
-  }
-
-  .blue-border {
-    text-decoration-color: #007298;
-    @apply decoration-1;
   }
 
   .details li {
@@ -88,5 +83,16 @@
 
   .pdf:active {
     transform: none;
+  }
+
+  .arrow {
+    display: inline;
+    margin-left: 10px;
+    width: 18px;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
   }
 }

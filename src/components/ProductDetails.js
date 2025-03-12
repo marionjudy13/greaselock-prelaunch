@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export const ProductDetails = () => {
   return (
-    <section className="px-8">
+    <section className="px-8 py-16">
       <div className="wrapper">
         <div>
           <h2 className="text-2xl mb-4">Keeps Grease Out</h2>
-          <h4 className="text-lg font-extrabold">Are You Concerned About:</h4>
+          <h4>Are You Concerned About:</h4>
           <ul className="details box">
             <li>
               Grease build up in your ventilation system that could catch fire?
