@@ -9,7 +9,7 @@ export const Pdfs = () => {
             More Information:
           </h3>
           <ul className="-translate-x-1">
-            <li className="mb-5">
+            <li className="mb-5 group">
               <div className="background" />
               <div className="pdf bg-white text-blue text-lg font-bold text-center w-100 px-10 py-6">
                 <Link
@@ -19,10 +19,13 @@ export const Pdfs = () => {
                 >
                   Care Guide
                 </Link>
-                <img src="images/arrow-right-solid.svg" className="arrow" />
+                <img
+                  src="images/arrow-right-solid.svg"
+                  className="arrow duration-300 ease-in-out group-hover:translate-x-1"
+                />
               </div>
             </li>
-            <li className="mb-5">
+            <li className="mb-5 group">
               <div className="background" />
               <div className="pdf bg-white text-blue text-lg font-bold text-center w-100 px-10 py-6">
                 <Link
@@ -32,9 +35,13 @@ export const Pdfs = () => {
                 >
                   Overview & Spec Sheet
                 </Link>
+                <img
+                  src="images/arrow-right-solid.svg"
+                  className="arrow duration-300 ease-in-out group-hover:translate-x-1"
+                />
               </div>
             </li>
-            <li className="mb-5">
+            <li className="mb-5 group">
               <div className="background" />
               <div className="pdf bg-white text-blue text-lg font-bold text-center w-100 px-10 py-6">
                 <Link
@@ -44,9 +51,13 @@ export const Pdfs = () => {
                 >
                   Product Comparison Sheet
                 </Link>
+                <img
+                  src="images/arrow-right-solid.svg"
+                  className="arrow duration-300 ease-in-out group-hover:translate-x-1"
+                />
               </div>
             </li>
-            <li>
+            <li className="group">
               <div className="background" />
               <div className="pdf bg-white text-blue text-lg font-bold text-center w-100 px-10 py-6">
                 <Link
@@ -56,6 +67,10 @@ export const Pdfs = () => {
                 >
                   Sell Sheet
                 </Link>
+                <img
+                  src="images/arrow-right-solid.svg"
+                  className="arrow duration-300 ease-in-out group-hover:translate-x-1"
+                />
               </div>
             </li>
           </ul>
