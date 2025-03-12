@@ -32,14 +32,61 @@
     color: #007298;
   }
 
-  h3 {
-    @apply text-base;
-    @apply font-bold;
+  h2 {
+    @apply font-extrabold;
+    @apply text-teal;
+    text-align: center;
+  }
+
+  h4 {
+    @apply text-lg;
+    @apply font-extrabold;
     @apply mb-3;
   }
 
   .blue-border {
     text-decoration-color: #007298;
     @apply decoration-1;
+  }
+
+  .details li {
+    margin-bottom: 8px;
+  }
+
+  .details li::before {
+    display: inline-block;
+    margin-right: 6px;
+    transform: translateY(2px);
+  }
+
+  .box li::before {
+    content: url(/images/box.png);
+  }
+
+  .check li::before {
+    content: url(/images/check.png);
+  }
+  li {
+    position: relative;
+  }
+
+  .pdf {
+    position: relative;
+    width: 100%;
+    transform: translate(4px, -4px);
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+
+  .background {
+    position: absolute;
+    height: 76px;
+    width: 100%;
+    @apply bg-blue;
+    transform: translate(0, 0px);
+  }
+
+  .pdf:active {
+    transform: none;
   }
 }

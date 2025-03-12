@@ -3,7 +3,7 @@ import GrYoutube from "@meronex/icons/gr/GrYoutube";
 
 export const Header = () => {
   return (
-    <header className="relative shadow-md shadow-black/25 layout-padding pt-5 pb-3 sm:py-5 z-10">
+    <header className="relative shadow-md shadow-black/25 layout-padding py-5 z-10">
       <div className="wrapper flex justify-between items center">
         <Image
           src="/images/greaselock-logo.png"

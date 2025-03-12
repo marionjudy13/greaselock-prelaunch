@@ -2,46 +2,60 @@ import Link from "next/link";
 
 export const Pdfs = () => {
   return (
-    <section>
+    <section className="px-8 py-10 bg-gray">
       <div className="wrapper">
         <div>
-          <h3 className="font-black">More Information:</h3>
-          <ul className="sm:flex sm:justify-between">
-            <li>
-              <Link
-                href="/pdfs/Grease Lock Care Guide.pdf"
-                target="_blank"
-                className="blue-border"
-              >
-                Care Guide
-              </Link>
+          <h3 className="text-center text-blue font-extrabold text-2xl mb-8">
+            More Information:
+          </h3>
+          <ul className="-translate-x-1">
+            <li className="mb-5">
+              <div className="background" />
+              <div className="pdf bg-white text-blue text-lg font-bold text-center w-100 px-10 py-6">
+                <Link
+                  href="/pdfs/Grease Lock Care Guide.pdf"
+                  target="_blank"
+                  className="no-underline"
+                >
+                  Care Guide
+                </Link>
+              </div>
             </li>
-            <li>
-              <Link
-                href="pdfs/Grease Lock Overview & Spec Sheet.pdf"
-                target="_blank"
-                className="blue-border"
-              >
-                Overview & Spec Sheet
-              </Link>
+            <li className="mb-5">
+              <div className="background" />
+              <div className="pdf bg-white text-blue text-lg font-bold text-center w-100 px-10 py-6">
+                <Link
+                  href="pdfs/Grease Lock Overview & Spec Sheet.pdf"
+                  target="_blank"
+                  className="no-underline"
+                >
+                  Overview & Spec Sheet
+                </Link>
+              </div>
             </li>
-            <li>
-              <Link
-                href="pdfs/Grease Lock Product Comparison Sheet.pdf"
-                target="_blank"
-                className="blue-border"
-              >
-                Product Comparison Sheet
-              </Link>
+            <li className="mb-5">
+              <div className="background" />
+              <div className="pdf bg-white text-blue text-lg font-bold text-center w-100 px-10 py-6">
+                <Link
+                  href="pdfs/Grease Lock Product Comparison Sheet.pdf"
+                  target="_blank"
+                  className="no-underline"
+                >
+                  Product Comparison Sheet
+                </Link>
+              </div>
             </li>
-            <li>
-              <Link
-                href="pdfs/Grease Lock Sell Sheet.pdf"
-                target="_blank"
-                className="blue-border"
-              >
-                Sell Sheet
-              </Link>
+            <li className="mb-5">
+              <div className="background" />
+              <div className="pdf bg-white text-blue text-lg font-bold text-center w-100 px-10 py-6">
+                <Link
+                  href="pdfs/Grease Lock Sell Sheet.pdf"
+                  target="_blank"
+                  className="no-underline"
+                >
+                  Sell Sheet
+                </Link>
+              </div>
             </li>
           </ul>
         </div>

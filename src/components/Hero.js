@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export const Hero = () => {
   return (
@@ -8,19 +7,19 @@ export const Hero = () => {
         <div className="text-center mb-2">
           <Image
             src="/images/greaselock-logo.png"
-            width={200}
+            width={175}
             height={500}
             alt="Grease Lock Filter System Logo"
-            className="m-auto mb-4 max-w-2xs"
+            className="m-auto mb-5 max-w-2xs"
           />
-          <h1 className="text-md font-extrabold mb-3">
+          <h1 className="text-[3.5vw] font-extrabold mb-3">
             Grease Management Reimagined:
             <br />
-            <span className="inline text-2xl italic bg-[url(/images/swipe-lg.png)] bg-contain px-2 mt-8">
+            <span className="inline text-[6vw] italic bg-[url(/images/swipe-lg.png)] bg-contain px-2 mt-8">
               Cleaner, Smarter, Better
             </span>
           </h1>
-          <p className="font-light">
+          <p className="font-normal">
             A patented, disposable filter pad and metal frame with a built in
             baffle on back. Grease Lock® features unique fire resistant fiber
             that creates exceptional grease filtration efficiency.

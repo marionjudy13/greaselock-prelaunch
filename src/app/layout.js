@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <GoogleTagManager gtmId="GTM-N5JP83PZ" />
-      <body className={`${openSans.variable} font-sans flex flex-col h-screen`}>
+      <body className={`${openSans.variable} font-sans`}>
         <Header />
         {children}
         <Footer />
