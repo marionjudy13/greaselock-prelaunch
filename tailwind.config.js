@@ -10,8 +10,9 @@ module.exports = {
       sans: ["var(--font-opensans)"],
     },
     screens: {
-      sm: "750px",
-      lg: "1150px",
+      sm: "700px",
+      md: "1000px",
+      lg: "1114px",
     },
     extend: {
       colors: {
@@ -23,7 +24,7 @@ module.exports = {
       backgroundImage: {
         "hero-img": "url('/images/hero-bg.jpg')",
         "new-hero":
-          "linear-gradient(180deg, rgba(255,255,255,.35) 0%, rgba(255,255,255,1) 100%), url('/images/hero-bg.webp')",
+          "linear-gradient(180deg, rgba(255,255,255,.20) 0%, rgba(255,255,255,.8) 100%), url('/images/hero-bg.webp')",
       },
     },
   },

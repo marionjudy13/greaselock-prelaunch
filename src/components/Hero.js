@@ -2,36 +2,33 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section className="flex flex-wrap w-full h-auto px-8 pt-14 pb-10 sm:py-44 bg-new-hero bg-center bg-cover bg-no-repeat z-0 border-b-white border-b-2">
-      <div className="wrapper md:flex">
-        <div className="text-center mb-2">
-          <Image
+    <section className="block w-full h-auto px-4 pt-14 sm:py-20 bg-new-hero bg-center bg-cover bg-no-repeat z-0 border-b-white border-b-2">
+      <div className="wrapper lg:flex lg:items-center">
+        <div className="text-center mb-2 sm:mb-4 lg:w-[60%]">
+          <img
             src="/images/greaselock-logo.png"
-            width={175}
-            height={500}
             alt="Grease Lock Filter System Logo"
-            className="m-auto mb-5 max-w-2xs"
+            className="m-auto mb-5 max-w-2xs lg:mb-6"
           />
-          <h1 className="text-[3.5vw] font-extrabold mb-3">
-            Grease Management Reimagined:
-            <br />
-            <span className="inline text-[6vw] italic bg-[url(/images/swipe-lg.png)] bg-contain px-2 mt-8">
+          <h1 className="font-extrabold mb-2 sm:mb-5 lg:mb-6">
+            <span className="block text-[3.75vw] sm:text-xl lg:text-2xl lg:mb-1 leading-none">
+              Grease Management Reimagined:
+            </span>
+            <span className="inline text-[6.5vw] sm:text-[40px] lg:text-5xl italic bg-[url(/images/swipe-lg.png)] bg-contain px-2 sm:px-4 sm:leading-none">
               Cleaner, Smarter, Better
             </span>
           </h1>
-          <p className="font-normal">
+          <p className="font-normal text-base sm:text-lg lg:text-xl lg:px-6">
             A patented, disposable filter pad and metal frame with a built in
             baffle on back. Grease Lock® features unique fire resistant fiber
-            that creates exceptional grease filtration efficiency.
+            that creates exceptional grease filtration&nbsp;efficiency.
           </p>
         </div>
-        <div>
-          <Image
+        <div className="lg:w-[40%]">
+          <img
             src="/images/labeled-filter.png"
-            width={350}
-            height={500}
             alt="Labeled Filter System"
-            className="m-auto"
+            className="max-w-xs lg:max-w-sm m-auto"
           />
         </div>
       </div>

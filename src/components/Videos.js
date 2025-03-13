@@ -3,13 +3,15 @@ import Link from "next/link";
 export const Videos = () => {
   return (
     <section className="px-8 py-16">
-      <div className="wrapper">
+      <div>
         <h3 className="text-center text-blue font-extrabold text-2xl mb-8">
           Watch &amp; Learn More:
         </h3>
-        <ul className="sm:flex sm:justify-between">
-          <li className="mb-7">
+        <ul className="sm:flex">
+          <li className="mb-7 video-container">
             <iframe
+              width="560"
+              height="315"
               src="https://www.youtube.com/embed/uE33KBe50h4?si=dAAYxUFmzcy5MbgC"
               title="YouTube video player"
               frameborder="0"
@@ -21,7 +23,7 @@ export const Videos = () => {
               Welcome To Grease Lock
             </h4>
           </li>
-          <li className="mb-7">
+          <li className="mb-7 video-container">
             <iframe
               width="560"
               height="315"
@@ -36,7 +38,7 @@ export const Videos = () => {
               Introduction to Grease Lock
             </h4>
           </li>
-          <li>
+          <li className="video-container">
             <iframe
               width="560"
               height="315"
