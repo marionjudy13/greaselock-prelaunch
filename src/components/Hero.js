@@ -22,7 +22,7 @@ export const Hero = () => {
               />
             </span>
           </h1>
-          <p className="font-normal text-base sm:text-xl sm:max-w-[650px] sm:m-auto lg:max-w-none lg:text-[22px] lg:leading-[1.35] hero-text">
+          <p className="font-normal text-base text-textGray sm:text-xl sm:max-w-[650px] sm:m-auto lg:max-w-none lg:text-[22px] lg:leading-[1.35] hero-text">
             A patented, disposable filter pad and metal frame with a built in
             baffle on back. Grease Lock<sup>®</sup> features unique fire
             resistant fiber that creates exceptional grease

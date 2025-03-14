@@ -7,7 +7,7 @@ export const Videos = () => {
         <h3 className="text-center text-blue font-extrabold text-2xl lg:text-3xl mb-10 lg:mb-12">
           Watch &amp; Learn More:
         </h3>
-        <ul className="lg:flex videos-container">
+        <ul className="lg:flex videos-container text-textGray">
           <li className="mb-7 video-container lg:mb-0">
             <iframe
               width="560"

@@ -11,7 +11,7 @@ export const ProductDetails = () => {
           <h4 className="sm:text-lg sm:font-extrabold">
             Are You Concerned About:
           </h4>
-          <ul className="details box sm:text-lg">
+          <ul className="details box text-textGray sm:text-lg">
             <li>
               Grease build up in your ventilation system that could catch fire?
             </li>
@@ -26,18 +26,18 @@ export const ProductDetails = () => {
             <li>Grease destroying your livelihood?</li>
           </ul>
           <div className="relative -rotate-6">
-            <p className="mt-8 mb-3 text-2xl font-extrabold text-center">
+            <p className="mt-8 mb-3 text-[26px] font-extrabold text-center">
               We are, too!
               <img
                 src="/images/swipe-sm.png"
-                className="relative m-auto -top-6 w-[175px] h-[20px]"
+                className="relative m-auto -top-7 w-[190px] h-[18px]"
               />
             </p>
           </div>
           <h4 className="sm:text-lg sm:font-extrabold">
             The Grease Lock System Will:
           </h4>
-          <ul className="details check sm:text-lg">
+          <ul className="details check text-textGray sm:text-lg">
             <li>Reduce grease build up everywhere and increase fire safety</li>
             <li>Result in less frequent hood cleanings</li>
             <li>Reduce water consumption and the use of harmful chemicals</li>

@@ -20,6 +20,7 @@ module.exports = {
         blue: "#007298",
         lightBlue: "#C6D3E3",
         gray: "#E9EAEE",
+        textGray: "#545454",
       },
       backgroundImage: {
         "hero-img": "url('/images/hero-bg.jpg')",

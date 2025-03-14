@@ -10,6 +10,34 @@ const openSans = Open_Sans({
   variable: "--font-opensans",
 });
 
+export const metadata = {
+  title: "Grease Lock Filter System",
+  description:
+    "A patented, disposable filter pad and metal frame with a built in baffle on back. Grease Lock® features unique fire resistant fiber that creates exceptional grease filtration efficiency.",
+  openGraph: {
+    title: "Grease Lock Filter System",
+    description:
+      "A patented, disposable filter pad and metal frame with a built in baffle on back. Grease Lock® features unique fire resistant fiber that creates exceptional grease filtration efficiency.",
+    url: "https://www.greaselock.com/",
+    type: "website",
+    images: [
+      {
+        url: "/images/og-image.jpg", // Path to your OG image
+        width: 1200,
+        height: 630,
+        alt: "Grease Lock Filter System Home Page",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Grease Lock Filter System",
+    description:
+      "A patented, disposable filter pad and metal frame with a built in baffle on back. Grease Lock® features unique fire resistant fiber that creates exceptional grease filtration efficiency.",
+    images: ["/images/og-image.jpg"], // Path to your OG image
+  },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
