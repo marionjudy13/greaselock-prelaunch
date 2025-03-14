@@ -1,7 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import GrYoutube from "@meronex/icons/gr/GrYoutube";
+import React, { useRef } from "react";
 
-export const Header = () => {
+export const Header = ({ scrollToRef }) => {
   return (
     <header className="relative shadow-md shadow-black/25 layout-padding py-5 z-10">
       <div className="wrapper flex justify-between items center">
@@ -12,12 +15,14 @@ export const Header = () => {
           alt="Grease Lock Logo"
         />
         <div className="flex items-center">
-          <a
-            href="#contact"
-            className="text-sm sm:text-base text-teal no-underline font-bold tracking-wide"
+          <button
+            onClick={() =>
+              scrollToRef.current.scrollIntoView({ behavior: "smooth" })
+            }
+            className="text-sm sm:text-base text-teal transition ease-in-out duration-300 hover:text-blue hover:underline no-underline font-bold tracking-wide"
           >
             Contact Us
-          </a>
+          </button>
           <a
             href="https://www.youtube.com/@greaselock"
             target="_blank"
