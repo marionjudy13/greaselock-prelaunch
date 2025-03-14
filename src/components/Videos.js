@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export const Videos = () => {
   return (
-    <section className="px-8 py-16">
-      <div>
-        <h3 className="text-center text-blue font-extrabold text-2xl mb-8">
+    <section className="px-8 py-20 lg:px-14">
+      <div className="max-w-[650px] m-auto lg:max-w-none">
+        <h3 className="text-center text-blue font-extrabold text-2xl mb-10">
           Watch &amp; Learn More:
         </h3>
-        <ul className="sm:flex">
-          <li className="mb-7 video-container">
+        <ul className="lg:flex videos-container">
+          <li className="mb-7 video-container lg:mb-0">
             <iframe
               width="560"
               height="315"
@@ -23,7 +23,7 @@ export const Videos = () => {
               Welcome To Grease Lock
             </h4>
           </li>
-          <li className="mb-7 video-container">
+          <li className="mb-7 video-container lg:mb-0">
             <iframe
               width="560"
               height="315"

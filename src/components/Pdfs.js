@@ -5,10 +5,10 @@ export const Pdfs = () => {
     <section className="px-8 py-20 bg-gray">
       <div className="wrapper">
         <div>
-          <h3 className="text-center text-blue font-extrabold text-2xl mb-8">
+          <h3 className="text-center text-blue font-extrabold text-2xl mb-10">
             More Information:
           </h3>
-          <ul className="-translate-x-1">
+          <ul className="-translate-x-1 lg:flex justify-between">
             <li className="mb-5 group">
               <div className="background" />
               <div className="pdf bg-white text-blue text-lg font-bold text-center w-100 px-10 py-6">
