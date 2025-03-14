@@ -2,12 +2,16 @@ import Image from "next/image";
 
 export const ProductDetails = () => {
   return (
-    <section className="px-8 py-16">
-      <div className="wrapper">
-        <div>
-          <h2 className="text-2xl mb-4">Keeps Grease Out</h2>
-          <h4>Are You Concerned About:</h4>
-          <ul className="details box">
+    <section className="px-8 py-16 z-10 sm:-mt-32">
+      <div className="wrapper lg:flex lg:justify-between">
+        <div className="max-w-[650px] m-auto lg:max-w-none lg:w-[75%]">
+          <h2 className="text-2xl mb-4 sm:text-3xl sm:mb-8">
+            Keeps Grease Out
+          </h2>
+          <h4 className="sm:text-lg sm:font-extrabold">
+            Are You Concerned About:
+          </h4>
+          <ul className="details box sm:text-lg">
             <li>
               Grease build up in your ventilation system that could catch fire?
             </li>
@@ -26,20 +30,21 @@ export const ProductDetails = () => {
               We are, too!
             </p>
           </div>
-          <h4>The Grease Lock System Will:</h4>
-          <ul className="details check">
+          <h4 className="sm:text-lg sm:font-extrabold">
+            The Grease Lock System Will:
+          </h4>
+          <ul className="details check sm:text-lg">
             <li>Reduce grease build up everywhere and increase fire safety</li>
             <li>Result in less frequent hood cleanings</li>
             <li>Reduce water consumption and the use of harmful chemicals</li>
             <li>Restore your peace of mind</li>
           </ul>
         </div>
-        <div className="my-10">
-          <Image
+        <div className="my-10 sm:mt-20 lg:flex">
+          <img
             src="/images/demo.png"
-            width={500}
-            height={500}
             alt="Image showing how Grease Lock filtration sytem works."
+            className="w-100 m-auto"
           />
         </div>
       </div>
