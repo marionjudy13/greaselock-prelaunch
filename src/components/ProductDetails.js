@@ -5,7 +5,7 @@ export const ProductDetails = () => {
     <section className="px-8 py-16 lg:pb-32 z-10 sm:-mt-24">
       <div className="wrapper lg:flex lg:justify-between">
         <div className="max-w-[650px] m-auto lg:max-w-none lg:w-[75%]">
-          <h2 className="text-2xl mb-4 sm:text-3xl sm:mb-8">
+          <h2 className="text-2xl mb-4 sm:text-3xl sm:mb-6">
             Keeps Grease Out
           </h2>
           <h4 className="sm:text-lg sm:font-extrabold">
@@ -25,9 +25,13 @@ export const ProductDetails = () => {
             </li>
             <li>Grease destroying your livelihood?</li>
           </ul>
-          <div>
-            <p className="my-10 text-2xl font-extrabold text-center">
+          <div className="relative -rotate-6">
+            <p className="mt-8 mb-3 text-2xl font-extrabold text-center">
               We are, too!
+              <img
+                src="/images/swipe-sm.png"
+                className="relative m-auto -top-6 w-[175px] h-[20px]"
+              />
             </p>
           </div>
           <h4 className="sm:text-lg sm:font-extrabold">

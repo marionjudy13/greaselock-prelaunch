@@ -10,18 +10,23 @@ export const Hero = () => {
             alt="Grease Lock Filter System Logo"
             className="m-auto mb-5 max-w-2xs lg:mb-6"
           />
-          <h1 className="font-extrabold mb-2 sm:mb-5 lg:mb-6">
+          <h1 className="font-extrabold">
             <span className="block text-[3.75vw] sm:text-2xl lg:mb-1 leading-none">
               Grease Management Reimagined:
             </span>
-            <span className="inline text-[6.5vw] sm:text-[40px] lg:text-5xl italic bg-[url(/images/swipe-lg.png)] bg-contain px-2 sm:px-4 sm:leading-none">
+            <span className="block relative text-[6.5vw] sm:text-[40px] lg:text-5xl italic px-2 sm:px-4 z-10 h1">
               Cleaner, Smarter, Better
+              <img
+                src="/images/swipe-lg.png"
+                className="block relative m-auto -top-9 w-[660px] h-[40px] z-0"
+              />
             </span>
           </h1>
-          <p className="font-normal text-base sm:text-xl sm:max-w-[650px] sm:m-auto lg:max-w-none lg:text-[22px] lg:leading-[1.35]">
+          <p className="font-normal text-base sm:text-xl sm:max-w-[650px] sm:m-auto lg:max-w-none lg:text-[22px] lg:leading-[1.35] hero-text">
             A patented, disposable filter pad and metal frame with a built in
-            baffle on back. Grease Lock® features unique fire resistant fiber
-            that creates exceptional grease filtration&nbsp;efficiency.
+            baffle on back. Grease Lock<sup>®</sup> features unique fire
+            resistant fiber that creates exceptional grease
+            filtration&nbsp;efficiency.
           </p>
         </div>
         <div className="lg:w-[40%] lg:pt-4">

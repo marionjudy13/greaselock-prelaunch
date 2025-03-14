@@ -44,6 +44,10 @@
     @apply mb-3;
   }
 
+  .hero-text {
+    margin-top: -12px !important;
+  }
+
   .details li {
     margin-bottom: 4px;
   }
