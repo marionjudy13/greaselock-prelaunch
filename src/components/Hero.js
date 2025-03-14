@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section className="block w-full h-auto px-4 pt-14 sm:py-20 lg:py-28 bg-new-hero bg-center bg-cover bg-no-repeat z-0 border-b-white border-b-2">
+    <section className="block w-full h-auto px-4 pt-14 sm:py-20 lg:py-20 bg-new-hero bg-center bg-cover bg-no-repeat z-0 border-b-white border-b-2">
       <div className="wrapper lg:flex lg:items-center">
         <div className="text-center mb-2 sm:mb-4 lg:w-[60%]">
           <img
@@ -18,13 +18,13 @@ export const Hero = () => {
               Cleaner, Smarter, Better
             </span>
           </h1>
-          <p className="font-normal text-base sm:text-xl sm:max-w-[650px] sm:m-auto lg:max-w-none lg:text-[1.5em] lg:leading-[1.35]">
+          <p className="font-normal text-base sm:text-xl sm:max-w-[650px] sm:m-auto lg:max-w-none lg:text-[22px] lg:leading-[1.35]">
             A patented, disposable filter pad and metal frame with a built in
             baffle on back. Grease Lock® features unique fire resistant fiber
             that creates exceptional grease filtration&nbsp;efficiency.
           </p>
         </div>
-        <div className="lg:w-[40%]">
+        <div className="lg:w-[40%] lg:pt-4">
           <img
             src="/images/labeled-filter.png"
             alt="Labeled Filter System"

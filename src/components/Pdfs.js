@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export const Pdfs = () => {
   return (
-    <section className="px-8 py-20 bg-gray">
+    <section className="px-8 py-20 lg:py-28 bg-gray">
       <div className="wrapper">
         <div>
-          <h3 className="text-center text-blue font-extrabold text-2xl mb-10">
+          <h3 className="text-center text-blue font-extrabold text-2xl lg:text-3xl mb-10 lg:mb-14">
             More Information:
           </h3>
           <ul className="-translate-x-1 lg:flex justify-between">

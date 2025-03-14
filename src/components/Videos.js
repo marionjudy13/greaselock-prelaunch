@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export const Videos = () => {
   return (
-    <section className="px-8 py-20 lg:px-14">
+    <section className="px-8 py-20 lg:px-14 lg:py-28">
       <div className="max-w-[650px] m-auto lg:max-w-none">
-        <h3 className="text-center text-blue font-extrabold text-2xl mb-10">
+        <h3 className="text-center text-blue font-extrabold text-2xl lg:text-3xl mb-10 lg:mb-12">
           Watch &amp; Learn More:
         </h3>
         <ul className="lg:flex videos-container">
