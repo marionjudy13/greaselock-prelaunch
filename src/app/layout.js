@@ -2,7 +2,6 @@ import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import { GoogleTagManager } from "@next/third-parties/google";
 import Head from "next/head";
-import Script from "next/script";
 
 const openSans = Open_Sans({
   subsets: ["latin"],

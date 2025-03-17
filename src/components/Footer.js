@@ -4,7 +4,10 @@ export const Footer = () => {
   return (
     <footer className="bg-black text-white pt-14 pb-6 lg:w-full">
       <div className="wrapper mb-5">
-        <img src="/images/greaselock-logo.png" className="w-44" />
+        <img
+          src="/images/greaselock-logo.png"
+          className="w-44 bottom-0 left-0"
+        />
       </div>
       <div className="layout-padding mb-14">
         <div className="wrapper sm:flex">
