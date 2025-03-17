@@ -11,6 +11,10 @@ const openSans = Open_Sans({
 });
 
 export const metadata = {
+  other: {
+    name: "google-site-verification",
+    content: "BQ0Z-mTxb-F-YBQbeqbDgSyTU4JNMdO2v2sEtHE10ak",
+  },
   title: "Grease Lock Filter System",
   description:
     "A patented, disposable filter pad and metal frame with a built in baffle on back. Grease Lock® features unique fire resistant fiber that creates exceptional grease filtration efficiency.",
