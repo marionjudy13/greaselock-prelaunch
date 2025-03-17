@@ -21,7 +21,7 @@ export const Contact = ({ targetRef }) => {
       <div className="wrapper relative">
         <img
           src="images/mac.png"
-          className="hidden xl:block absolute h-[400px] bottom-0"
+          className="hidden xl:block absolute h-[400px] bottom-[-147px] right-[-128px]"
         />
       </div>
     </section>
