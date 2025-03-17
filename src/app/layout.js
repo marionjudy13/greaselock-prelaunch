@@ -40,7 +40,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <GoogleTagManager gtmId="GTM-N5JP83PZ" />
-      <body className={`${openSans.variable} font-sans`}>{children}</body>
+      <body className={`${openSans.variable} font-sans flex flex-col h-screen`}>
+        {children}
+        <script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="//js.hs-scripts.com/22615991.js?businessUnitId=2432495"
+        ></script>
+      </body>
     </html>
   );
 }
