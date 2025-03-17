@@ -20,7 +20,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/images/og-image.jpg", // Path to your OG image
+        url: "https://res.cloudinary.com/dqbzyikvg/image/upload/v1742232913/og-image_fb7oju.jpg",
         width: 1200,
         height: 630,
         alt: "Grease Lock Filter System Home Page",
@@ -32,7 +32,8 @@ export const metadata = {
     title: "Grease Lock Filter System",
     description:
       "A patented, disposable filter pad and metal frame with a built in baffle on back. Grease Lock® features unique fire resistant fiber that creates exceptional grease filtration efficiency.",
-    images: ["/images/og-image.jpg"], // Path to your OG image
+    images:
+      "https://res.cloudinary.com/dqbzyikvg/image/upload/v1742232913/og-image_fb7oju.jpg",
   },
 };
 
