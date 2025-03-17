@@ -12,7 +12,7 @@ const openSans = Open_Sans({
 
 export const metadata = {
   other: {
-    "google-site-verification": "ewawsLX9_9TZyMFjdeqxxGSWXpYSk6vUaAgtwwqakFE",
+    "google-site-verification": "BQ0Z-mTxb-F-YBQbeqbDgSyTU4JNMdO2v2sEtHE10ak",
   },
   title: "Grease Lock Filter System",
   description:
