@@ -1,6 +1,8 @@
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import { GoogleTagManager } from "@next/third-parties/google";
+import Head from "next/head";
+import Script from "next/script";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -40,6 +42,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="BQ0Z-mTxb-F-YBQbeqbDgSyTU4JNMdO2v2sEtHE10ak"
+        />
+      </Head>
       <GoogleTagManager gtmId="GTM-N5JP83PZ" />
       <body className={`${openSans.variable} font-sans flex flex-col h-screen`}>
         {children}
