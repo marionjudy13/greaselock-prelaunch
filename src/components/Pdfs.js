@@ -10,7 +10,7 @@ export const Pdfs = () => {
           </h3>
           <ul className="-translate-x-1 lg:flex justify-between">
             <li className="mb-5 group">
-              <Link
+              <a
                 href="/pdfs/Grease-Lock-Care-Guide.pdf"
                 target="_blank"
                 className="no-underline"
@@ -23,7 +23,7 @@ export const Pdfs = () => {
                     className="arrow duration-300 ease-in-out group-hover:translate-x-1"
                   />
                 </div>
-              </Link>
+              </a>
             </li>
             <li className="mb-5 group">
               <Link
