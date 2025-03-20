@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const ProductDetails = () => {
   return (
-    <section className="px-8 py-16 lg:pb-32 z-10 sm:-mt-24">
+    <section className="z-10 px-8 py-16 lg:pb-32 sm:-mt-24">
       <div className="wrapper lg:flex lg:justify-between">
         <div className="max-w-[650px] m-auto lg:max-w-none lg:w-[75%]">
           <h2 className="text-2xl mb-4 sm:text-3xl sm:mb-6">

@@ -12,18 +12,21 @@ export const Header = ({ scrollToRef }) => {
           <a
             href="tel:8008289638"
             className="no-underline mr-10 hover:text-gray"
+
           >
             800.828.9638
           </a>
           <a
             href="mailto:sales@greaselock.com"
             className="hover:text-gray no-underline"
+
           >
             sales@greaselock.com
           </a>
         </div>
       </section>
       <header className="relative shadow-md shadow-black/25 bg-white layout-padding py-5 z-10">
+
         <div className="wrapper flex justify-between items center">
           <Image
             src="/images/greaselock-logo.png"
