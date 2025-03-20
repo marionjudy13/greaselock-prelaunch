@@ -27,7 +27,7 @@ export const Pdfs = () => {
             </li>
             <li className="mb-5 group">
               <Link
-                href="pdfs/Grease Lock Overview & Spec Sheet.pdf"
+                href="/pdfs/Grease Lock Overview.pdf"
                 target="_blank"
                 className="no-underline"
               >
