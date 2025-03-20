@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section className="block w-full h-auto px-4 pt-14 sm:py-20 lg:py-20 bg-new-hero bg-center bg-cover bg-no-repeat z-0 border-b-white border-b-2">
+    <section className="block mt-[90px] w-full h-auto px-4 pt-14 sm:py-20 lg:py-20 bg-new-hero bg-center bg-cover bg-no-repeat z-10 border-b-white border-b-2">
       <div className="wrapper lg:flex lg:items-center">
         <div className="text-center mb-2 sm:mb-4 lg:w-[60%]">
           <img

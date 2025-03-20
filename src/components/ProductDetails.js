@@ -35,7 +35,7 @@ export const ProductDetails = () => {
             </p>
           </div>
           <h4 className="sm:text-lg sm:font-extrabold">
-            The Grease Lock System Will:
+            The Grease Lock Filter System Will:
           </h4>
           <ul className="details check text-textGray sm:text-lg">
             <li>Reduce grease build up everywhere and increase fire safety</li>
