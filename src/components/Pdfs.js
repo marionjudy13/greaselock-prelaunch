@@ -11,7 +11,7 @@ export const Pdfs = () => {
           <ul className="-translate-x-1 lg:flex justify-between">
             <li className="mb-5 group">
               <Link
-                href="/pdfs/Grease Lock Care Guide.pdf"
+                href="/pdfs/Grease-Lock-Care-Guide.pdf"
                 target="_blank"
                 className="no-underline"
               >
@@ -27,7 +27,7 @@ export const Pdfs = () => {
             </li>
             <li className="mb-5 group">
               <Link
-                href="/pdfs/Grease Lock Overview.pdf"
+                href="/pdfs/Grease-Lock-Overview.pdf"
                 target="_blank"
                 className="no-underline"
               >
@@ -43,7 +43,7 @@ export const Pdfs = () => {
             </li>
             <li className="mb-5 group">
               <Link
-                href="pdfs/Grease Lock Product Comparison Sheet.pdf"
+                href="/pdfs/Grease-Lock-Product-Comparison-Sheet.pdf"
                 target="_blank"
                 className="no-underline"
               >
@@ -59,7 +59,7 @@ export const Pdfs = () => {
             </li>
             <li className="group">
               <Link
-                href="pdfs/Grease Lock Sell Sheet.pdf"
+                href="/pdfs/Grease-Lock-Sell-Sheet.pdf"
                 target="_blank"
                 className="no-underline"
               >
