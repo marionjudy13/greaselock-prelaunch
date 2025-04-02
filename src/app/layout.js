@@ -49,6 +49,11 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="BQ0Z-mTxb-F-YBQbeqbDgSyTU4JNMdO2v2sEtHE10ak"
         />
+        <link
+          rel="canonical"
+          href="https://www.greaselock.com/"
+          key="canonical"
+        />
       </Head>
       <GoogleTagManager gtmId="GTM-N5JP83PZ" />
       <body className={`${openSans.variable} font-sans flex flex-col h-screen`}>
