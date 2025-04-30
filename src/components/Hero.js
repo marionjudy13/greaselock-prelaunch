@@ -12,7 +12,7 @@ export const Hero = () => {
           />
           <h1 className="font-extrabold">
             <span className="block text-[3.75vw] sm:text-2xl lg:mb-1 leading-none">
-              Grease Management Reimagined:
+              Grease Vapor Management Reimagined:
             </span>
             <span className="block relative text-[6.5vw] sm:text-[40px] lg:text-5xl italic px-2 sm:px-4 z-10 h1">
               Cleaner, Smarter, Better
