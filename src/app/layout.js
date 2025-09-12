@@ -13,6 +13,9 @@ export const metadata = {
   other: {
     "google-site-verification": "BQ0Z-mTxb-F-YBQbeqbDgSyTU4JNMdO2v2sEtHE10ak",
   },
+  icons: {
+    icon: "/favicon.ico?v=2",
+  },
   title: "Grease Lock Filter System",
   description:
     "A patented, disposable filter pad and metal frame with a built in baffle on back. Grease Lock® features unique fire resistant fiber that creates exceptional grease filtration efficiency.",
@@ -36,8 +39,7 @@ export const metadata = {
     title: "Grease Lock Filter System",
     description:
       "A patented, disposable filter pad and metal frame with a built in baffle on back. Grease Lock® features unique fire resistant fiber that creates exceptional grease filtration efficiency.",
-    images:
-      "https://res.cloudinary.com/dqbzyikvg/image/upload/v1742232913/og-image_fb7oju.jpg",
+    images: "https://res.cloudinary.com/dqbzyikvg/image/upload/v1742232913/og-image_fb7oju.jpg",
   },
 };
 
@@ -45,15 +47,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <meta
-          name="google-site-verification"
-          content="BQ0Z-mTxb-F-YBQbeqbDgSyTU4JNMdO2v2sEtHE10ak"
-        />
-        <link
-          rel="canonical"
-          href="https://www.greaselock.com/"
-          key="canonical"
-        />
+        <meta name="google-site-verification" content="BQ0Z-mTxb-F-YBQbeqbDgSyTU4JNMdO2v2sEtHE10ak" />
+        <link rel="canonical" href="https://www.greaselock.com/" key="canonical" />
       </Head>
       <GoogleTagManager gtmId="GTM-N5JP83PZ" />
       <body className={`${openSans.variable} font-sans flex flex-col h-screen`}>
