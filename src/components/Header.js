@@ -25,12 +25,14 @@ export const Header = ({ scrollToRef }) => {
       </section>
       <header className="relative shadow-md shadow-black/25 bg-white layout-padding py-5 z-10">
         <div className="wrapper flex justify-between items center">
-          <Image
-            src="/images/greaselock-logo.png"
-            width={165}
-            height={150}
-            alt="Grease Lock Logo"
-          />
+          <a href="/">
+            <Image
+              src="/images/greaselock-logo.png"
+              width={165}
+              height={150}
+              alt="Grease Lock Logo"
+            />
+          </a>
           <div className="flex items-center">
             <button
               onClick={() =>
