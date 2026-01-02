@@ -34,7 +34,7 @@ export const Footer = () => {
         <div className="wrapper">
           <div className="flex justify-between items-center w-full">
             <p className="text-black text-xs font-semibold">
-              Copyright © <script>document.write(new Date().getFullYear())</script> GREASE LOCK<sup>&#174;</sup>
+              Copyright © {new Date().getFullYear()} GREASE LOCK<sup>&#174;</sup>
             </p>
             <a href="https://www.youtube.com/@greaselock" target="_blank">
               <GrYoutube size="2em" />
