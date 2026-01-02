@@ -4,10 +4,7 @@ export const Footer = () => {
   return (
     <footer className="bg-black text-white pt-14 pb-6 lg:w-full">
       <div className="wrapper mb-5">
-        <img
-          src="/images/greaselock-logo.png"
-          className="w-44 bottom-0 left-0"
-        />
+        <img src="/images/greaselock-logo.png" className="w-44 bottom-0 left-0" />
       </div>
       <div className="layout-padding mb-14">
         <div className="wrapper sm:flex">
@@ -22,10 +19,7 @@ export const Footer = () => {
             <h5 className="font-bold mb-3">Contact Us Today To Learn More</h5>
             <p className="text-sm font-normal tracking-wider">
               Email{" "}
-              <a
-                className="text-teal font-bold"
-                href="mailto: sales@greaselock.com"
-              >
+              <a className="text-teal font-bold" href="mailto: sales@greaselock.com">
                 sales@greaselock.com
               </a>{" "}
               or call{" "}
@@ -40,7 +34,7 @@ export const Footer = () => {
         <div className="wrapper">
           <div className="flex justify-between items-center w-full">
             <p className="text-black text-xs font-semibold">
-              Copyright © 2025 GREASE LOCK<sup>&#174;</sup>
+              Copyright © <script>document.write(new Date().getFullYear())</script> GREASE LOCK<sup>&#174;</sup>
             </p>
             <a href="https://www.youtube.com/@greaselock" target="_blank">
               <GrYoutube size="2em" />
